@@ -5,7 +5,6 @@ Nájdné chyby
 1. Chýbajúce zátvorky pri `e.preventDefault`
 
 Pôvodný kód:
-```js
 e.preventDefault;
 
 Problém:
