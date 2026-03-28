@@ -1,6 +1,6 @@
 # Zadanie 3 – Debug + optimalizácia
 
-## Nájdné chyby
+Nájdné chyby
 
 1. Chýbajúce zátvorky pri `e.preventDefault`
 
