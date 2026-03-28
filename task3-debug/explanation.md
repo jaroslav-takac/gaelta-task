@@ -36,6 +36,7 @@ ak element neexistuje → crash (Cannot read property 'value' of null)
 
 
 3. Chýbajúce zátvorky pri response.json
+
 Pôvodný kód:
 .then(response => response.json)
 
