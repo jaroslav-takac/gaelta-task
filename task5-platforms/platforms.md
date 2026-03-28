@@ -2,7 +2,7 @@
 
 ## 1. WordPress / WooCommerce
 
-Vo WooCommerce by som to riešil najjednoduchšie priamo na serverovej strane pri renderovaní košíka. Každá položka v košíku má väzbu na `WC_Product`, kde viem získať bežnú cenu cez `get_regular_price()`, akciovú cenu cez `get_sale_price()` a aktuálnu cenu cez `get_price()`. Najpraktickejšie by bolo vypísať si pri každej položke do HTML vlastné `data-` atribúty, napríklad `data-regular-price` a `data-sale-price`, a potom ich v custom skripte porovnať. Ak je produkt v akcii, zobrazím pri ňom upozornenie v košíku.
+Vo WooCommerce by som to riešil najjednoduchšie priamo na serverovej strane pri renderovaní košíka. Každá položka v košíku má väzbu na `WC_Product`, kde viem získať bežnú cenu cez `get_regular_price()`, akciovú cenu cez `get_sale_price()` a aktuálnu cenu cez `get_price()`. Najpraktickejšie by bolo vypísať si pri každej položke do HTML vlastné data-atribúty, napríklad `data-regular-price` a `data-sale-price`, a potom ich v custom skripte porovnať. Ak je produkt v akcii, zobrazím pri ňom upozornenie v košíku.
 
 ## 2. Shoptet
 
